@@ -2,11 +2,7 @@
 
 const Todo = require("../models/ToDo");
 //define route handler
- const random=()=>{
-  return {
-    
-  }
- }
+
 exports.deleteTodo=async(req,res)=>{
 
     try{
